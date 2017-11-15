@@ -1,0 +1,5 @@
+node{
+stage 'Run Jmeter'
+sh '/home/localhost/Dokumenty/Jmeter/apache-jmeter-3.2/bin/jmeter.sh-n -t
+/home/localhost/Pobrane/RECORD-11-15-17-6-09-03-PM.jmx -l test.jtl'
+}
