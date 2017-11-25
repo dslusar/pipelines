@@ -1,4 +1,4 @@
 node{
 	stage 'Run Jmeter'
-	sh '/home/localhost/Dokumenty/Jmeter/apache-jmeter-3.2/bin/jmeter.sh -n -t /home/localhost/Pulpit/Praca/jmeter_testy/HTTP Request.jmx -Jusers=1 -l test.jtl'
+	sh '/home/localhost/Dokumenty/Jmeter/apache-jmeter-3.2/bin/jmeter.sh -n -t /home/localhost/Pulpit/prac apraca/HTTPoooRequest.jmx -Jusers=1 -l test.jtl'
 }
